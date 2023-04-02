@@ -73,3 +73,38 @@ a:hover, a:active {
 	color: #fff;
 	background-color: #333;
 }
+
+/* Animated buttons */
+.button {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: transform 0.3s ease-in-out;
+}
+.button:hover {
+  transform: translateY(-5px);
+}
+
+/* Image hover effects */
+.image {
+  transition: transform 0.3s ease-in-out;
+}
+.image:hover {
+  transform: scale(1.1);
+}
+
+/* Fade-in on page load */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn ease 1s;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
