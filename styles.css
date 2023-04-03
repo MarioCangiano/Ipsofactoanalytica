@@ -109,6 +109,27 @@ a:hover, a:active {
   }
 }
 
+.button-container {
+  text-align: center;
+  margin-top: 50px;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding: 20px 0;
+}
+
+.button-container a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.button-container a:first-child {
+  margin-left: 0;
+}
+
+.button-container a:last-child {
+  margin-right: 0;
+}
+
 /* Button style */
 .button {
   display: inline-block;
