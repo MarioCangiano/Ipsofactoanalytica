@@ -146,3 +146,66 @@ a:hover, a:active {
 .button:hover {
   background-color: #555;
 }
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav li {
+	margin: 0 10px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #ccc;
+}
+
+.logo {
+	position: absolute;
+	top: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.logo img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	transition: transform 0.3s ease-in-out;
+}
+
+.logo img:hover {
+	transform: scale(1.2);
+}
+
+main {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 50px;
+}
+
+.image-box {
+	width: 30%;
+	margin-bottom: 50px;
+}
+
+.image-box img {
+	width: 100%;
+}
+
+footer {
+	background-color: #333;
+	padding: 20px;
+	color: #fff;
+	text-align: center;
+}
